@@ -7,7 +7,7 @@ local parts = Model:GetChildren()
 local taggedPart= parts[math.ceil(#parts/2)]
 
 taggedPart.Name = "tagged"
-cs:AddTag(taggedPart, "test")
+print(FindTagged)
 
 
 
